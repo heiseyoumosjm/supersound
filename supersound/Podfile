@@ -1,0 +1,14 @@
+platform :ios, "7.0"
+target ‘supersound’ do
+
+pod "AFNetworking", "~>2.6.3"
+pod "SDWebImage"
+pod "MJExtension"
+pod "pop"
+pod "JSONModel"
+pod "MMNumberKeyboard"
+pod "TSMessages"
+pod "FMDB"
+pod "Masonry"
+pod "HMSegmentedControl"
+end

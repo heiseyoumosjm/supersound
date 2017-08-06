@@ -8,8 +8,9 @@
 
 #import "AppDelegate.h"
 #import "CYXTabBarController.h"
+#import "ProjectMacro.h"
 
-@interface AppDelegate ()
+@interface AppDelegate ()<UITabBarControllerDelegate>
 
 @end
 
@@ -30,6 +31,13 @@
     self.window.rootViewController = _dragVC;
     _dragVC.delegate = self;
 
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setBarTintColor:UIColorFromRGB(SubjectColorValue)];
+    [[UINavigationBar appearance] setTitleTextAttributes: [NSDictionary dictionaryWithObjectsAndKeys:
+                                                           [UIColor whiteColor], NSForegroundColorAttributeName, [UIFont systemFontOfSize:20], NSFontAttributeName, nil]];
+    
+    [[UINavigationBar appearance] setTranslucent:NO];
+    [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent];
     
     return YES;
 }

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYBaseViewController.h"
 
-@interface StudyGardenViewController : UIViewController
+@interface StudyGardenViewController : JYBaseViewController
 
 @end

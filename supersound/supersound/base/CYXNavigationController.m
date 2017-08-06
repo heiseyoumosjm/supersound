@@ -7,7 +7,7 @@
 //
 
 #import "CYXNavigationController.h"
-
+#import "ProjectMacro.h"
 @interface CYXNavigationController ()
 
 @end
@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 - (void)didReceiveMemoryWarning {

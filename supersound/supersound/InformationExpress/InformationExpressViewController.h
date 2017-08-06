@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYBaseViewController.h"
 
-@interface InformationExpressViewController : UIViewController
-
+@interface InformationExpressViewController : JYBaseViewController
+@property (strong, nonatomic)UITableView *tableView;
 @end

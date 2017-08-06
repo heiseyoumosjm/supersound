@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYBaseViewController.h"
 
-@interface TrainingMeetingViewController : UIViewController
+@interface TrainingMeetingViewController : JYBaseViewController
 
 @end

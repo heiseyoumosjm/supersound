@@ -17,9 +17,9 @@
 #define ScreenWidth [[UIScreen mainScreen] bounds].size.width
 
 // The subject color value for our application.
-#define SubjectColorValue  0x5fbff9/*x01afb7*/
+#define SubjectColorValue  0x36aff9/*x01afb7*/
 // Background color value.
-#define BackColorValue 0xf8f8f8
+#define BackColorValue 0xf4f4f4
 // Line's color
 #define LineColor 0xcccccc
 // Default text color

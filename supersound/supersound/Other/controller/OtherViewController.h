@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYBaseViewController.h"
 
-@interface OtherViewController : UIViewController
+@interface OtherViewController : JYBaseViewController
 
 @end

@@ -132,11 +132,11 @@
     CYXNavigationController *nav = [[CYXNavigationController alloc] initWithRootViewController:childVc];
     
     childVc.title = title;
-    childVc.tabBarItem.image = norImage;
+    childVc.tabBarItem.image = [norImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     // 设置 tabbarItem 选中状态的图片(不被系统默认渲染,显示图像原始颜色)
 //    UIImage *imageHome = [UIImage imageNamed:selectedImage];
     selImage = [selImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
-    [ childVc.tabBarItem setSelectedImage:selImage];
+    [childVc.tabBarItem setSelectedImage:selImage];
 
 //    childVc.tabBarItem.selectedImage = selImage;
     

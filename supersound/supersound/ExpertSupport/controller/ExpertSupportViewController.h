@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JYBaseViewController.h"
 
-@interface ExpertSupportViewController : UIViewController
+@interface ExpertSupportViewController : JYBaseViewController
 
 @end
