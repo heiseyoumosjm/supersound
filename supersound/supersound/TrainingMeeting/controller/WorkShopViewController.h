@@ -1,14 +1,13 @@
 //
-//  TrainingMeetingViewController.h
+//  WorkShopViewController.h
 //  supersound
 //
-//  Created by Mickey on 2017/8/3.
+//  Created by Mickey on 2017/8/8.
 //  Copyright © 2017年 Mickey. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import "JYBaseViewController.h"
 
-@interface TrainingMeetingViewController : JYBaseViewController
+@interface WorkShopViewController : JYBaseViewController
 @property (strong, nonatomic)UITableView *tableView;
 @end
