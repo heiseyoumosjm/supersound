@@ -57,6 +57,7 @@
 //聊天表情背景
 #define MoreViewBackgroundColor [UIColor colorWithRed:240 / 255.0 green:242 / 255.0 blue:247 / 255.0 alpha:1.0]
 
+
 //ItemName
 extern NSString * const HomeItemName;
 extern NSString * const ThemeItemName;
@@ -147,6 +148,7 @@ extern NSString * const HTTPCONTENTKEY;
 extern NSString * const HTTPACCEPTVALUE;
 extern NSString * const HTTPACCEPTKEY;
 extern NSString * const HTTPDeviceKEY;
+extern NSString * const Authorization;
 
 //日期格式
 extern NSString * const TimeStyle;

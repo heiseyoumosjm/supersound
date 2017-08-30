@@ -40,7 +40,7 @@
 - (NSString *)addwatermark:(NSString *)url;
 // Responds to click event of right button.
 - (void)reactToRightButtonClickEvent;
-
+- (BOOL)isBlankString:(NSString *)string;
 // Right button with no title, but a image.
 - (void)addRightBarButnWithImage:(UIImage *)image;
 - (void)addLeftBarButnWithImage:(UIImage *)image;

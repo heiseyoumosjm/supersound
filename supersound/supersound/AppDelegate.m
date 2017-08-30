@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "CYXTabBarController.h"
 #import "ProjectMacro.h"
+#import "LoginViewController.h"
 
 @interface AppDelegate ()<UITabBarControllerDelegate>
 
@@ -26,9 +27,13 @@
     // 1.创建窗口
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
+    
+    LoginViewController *login=[[LoginViewController alloc]init];
+    UINavigationController *nav=[[UINavigationController alloc]initWithRootViewController:login];
+//    LoginViewController *login=[[LoginViewController alloc]init];
     //    // 2.设置窗口的根控制器
-    _dragVC = [[CYXTabBarController alloc]init];
-    self.window.rootViewController = _dragVC;
+//    _dragVC = [[CYXTabBarController alloc]init];
+    self.window.rootViewController = nav;
     _dragVC.delegate = self;
 
     [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];

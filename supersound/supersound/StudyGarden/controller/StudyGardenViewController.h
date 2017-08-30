@@ -10,5 +10,5 @@
 #import "JYBaseViewController.h"
 
 @interface StudyGardenViewController : JYBaseViewController
-
+@property (strong, nonatomic)UITableView *tableView;
 @end

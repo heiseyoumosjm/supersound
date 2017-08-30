@@ -101,7 +101,7 @@
 }
 - (void)addLeftBarButnWithImage:(UIImage *)image
 {
-    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 25, 25)];
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     [button setBackgroundImage:image forState:UIControlStateNormal];
     [button addTarget:self action:@selector(reactToLeftButtonClickEvent) forControlEvents:UIControlEventTouchUpInside];
     UIBarButtonItem *leftBarButton = [[UIBarButtonItem alloc] initWithCustomView:button];
@@ -334,5 +334,20 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (BOOL)isBlankString:(NSString *)string
+{
+    if (string == nil || string == NULL)
+    {
+        return YES;
+    }
+    if ([string isKindOfClass:[NSNull class]])
+    {
+        return YES;
+    }
+    if ([[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length]==0)
+    {
+        return YES;
+    }
+    return NO;
+}
 @end

@@ -57,7 +57,7 @@
     [self setUpChildControllerWith:[[StudyGardenViewController alloc] init] norImage:[UIImage imageNamed:@"tabBar_3"] selImage:[UIImage imageNamed:@"tabBar_3_on"] title:@"学习园地"];
     
     /** 我的 */
-    [self setUpChildControllerWith:[[OtherViewController alloc] init] norImage:[UIImage imageNamed:@"tabBar_4"] selImage:[UIImage imageNamed:@"tabBar_4_on"] title:@"其他"];
+    [self setUpChildControllerWith:[[OtherViewController alloc] init] norImage:[UIImage imageNamed:@"tabBar_4"] selImage:[UIImage imageNamed:@"tabBar_4_on"] title:@"我的"];
 
 
     

@@ -12,7 +12,7 @@
 NSString * const service_ = @"dev";//pro
 //dev
 NSString * const API = @"http://api.comaking.net/";
-NSString * const Dev_API = @"http://116.62.225.255:8088/";
+NSString * const Dev_API = @"http://114.55.92.151/supersound/api/web/v1/";
 //NSString * const Dev_API = @"http://192.168.12.29/";
 //NSString * const API = @"http://192.168.12.51:5067/";
 
@@ -31,6 +31,7 @@ NSString * const HTTPCONTENTVALUE = @"application/json";
 NSString * const HTTPACCEPTKEY = @"Accept";
 NSString * const HTTPACCEPTVALUE = @"application/json";
 NSString * const HTTPDeviceKEY = @"Device";
+NSString * const Authorization = @"Authorization";
 
 //ItemName
 NSString * const HomeItemName = @"主页";
